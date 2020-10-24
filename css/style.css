@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: #6b6b80;
+
+}
+
+.map{
+    display: flex;
+    flex: 5;
+    background-color: lightskyblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    flex:4;
+}
+
+.logo h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(92, 30, 236);
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 5px;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    flex: 3;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #6b6b80;
+}
+
+.nav-link{
+    padding: 0 1rem;
+}
+
+.add-button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    background-color: rgba(92, 30, 236, 0.959);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.fa-plus{
+    margin-right: 5px;
+}
+
+.user-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
+    font-size: 30px;
+    color: rgba(92, 30, 236, 0.959);
+    cursor: pointer;
+}
+
+.user-icon img{
+    width: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 2rem auto 0;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    margin: 0 0 1rem;
+    box-shadow: 0 1px 5px grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.company-logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.info{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.job-position{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.salary{
+    color: rgba(92, 30, 236, 0.959);
+}
+
+span{
+    color: rgb(230, 230, 230);
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.skill{
+    font-size: 10px;
+    background-color: #eeeeee;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 0.5rem;
+}
+
+.date{
+    font-size: 9px;
+    align-self: flex-end;
+    margin-left: 5rem;
+}
