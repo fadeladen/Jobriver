@@ -31,6 +31,10 @@ body{
     overflow-y: hidden;
 }
 
+input{
+    font-family: 'Poppins', sans-serif;
+}
+
 p{
     font-size: 12px;
     font-weight: lighter;
@@ -116,6 +120,72 @@ nav, .user-icon .logo, .nav-links{
     margin-right: 5px;
 }
 
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto 0;
+    width: 80%;
+}
+
+.search{
+    display: flex;
+    flex: 2;
+    margin-right: 5px;
+}
+
+.search input{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    font-size: 12px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+
+}
+
+.filter-btn{
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filter-btn button{
+    padding: 12px 16px;
+    border: none;
+    background: transparent;
+    color: rgb(95, 93, 93);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 1px 3px #c1c1c4;
+    display: flex;
+    align-items: center;
+}
+
+.fa-map-marker-alt, .fa-list{
+    margin: 0 10px 0;
+    color: rgba(92, 30, 236, 0.959);
+    font-size: 16px;
+}
+
+.fa-caret-down{
+    margin-left:15px;
+    color: rgb(141, 141, 141);
+    
+}
+
+.filter-btn p{
+    font-weight: bold;
+}
+
+.city-button{
+    width: 7rem;
+    
+}
+
 .user-icon{
     display: flex;
     justify-content: center;
@@ -141,7 +211,7 @@ nav, .user-icon .logo, .nav-links{
     max-height: 80vh;
     overflow-x: hidden;
     overflow-y: auto;
-    margin: 2rem auto 0;
+    margin: 1rem auto 0;
 }
 
 .card{
@@ -151,7 +221,7 @@ nav, .user-icon .logo, .nav-links{
     width: 90%;
     background-color: white;
     margin: 2px auto 1rem;
-    box-shadow: 0 1px 5px #6b6b80;
+    box-shadow: 0 1px 3px #6b6b80;
     padding: 15px 15px 15px 5px;
     border-radius: 10px;
 }
